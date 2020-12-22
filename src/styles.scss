@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+$background-color: #030303 !important;
+$font-color: #fff !important;
+
+.p-card {
+  background-color: $background-color;
+  color: $font-color;
+}
+
+body{
+  background-image: url("./assets/background-bmw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.95;
+}
+
